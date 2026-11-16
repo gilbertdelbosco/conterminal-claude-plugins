@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Conterminal favicon "Night Berth": reverse-color recut of the Moored Prompt for
+       16/32/48px tabs. Void tile rx26 (21.7%, matches current tile). Mark simplified to
+       identity floor: white C-portal bracket, 15u strokes on a 7.5u grid (7.5u = 1 device
+       px at 16px, 2 at 32px) so every straight edge lands pixel-crisp; ship details (bow
+       rake, deck node, hull band) dropped - they mush below 32px. Rust prompt chevron
+       enlarged to 30x52.5u, notch KEPT (survives 16px: arms 18.75u along x ~1.7px perp,
+       notch opening ~2.6px); slope relaxed to ~41 deg per arm to hold the notch open at
+       arm weight; 3.75u air to the bars, tip 7.5u shy of the bar ends. -->
+  <rect x="0" y="0" width="120" height="120" rx="26" fill="#0A0A0A"/>
+  <g fill="#FFFFFF">
+    <rect x="15" y="15" width="90" height="15"/>
+    <rect x="15" y="15" width="15" height="90"/>
+    <rect x="15" y="90" width="90" height="15"/>
+  </g>
+  <polygon fill="#E86A2A" points="67.5,33.75 97.5,60 67.5,86.25 67.5,69.84375 78.75,60 67.5,50.15625"/>
+</svg>

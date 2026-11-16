@@ -1,0 +1,16 @@
+{
+  "name": "conterminal",
+  "description": "Claude plugins for Conterminal, the drayage TMS: quoting skills that work with the Conterminal connector.",
+  "owner": {
+    "name": "Conterminal",
+    "email": "support@conterminal.com",
+    "url": "https://www.conterminal.com"
+  },
+  "plugins": [
+    {
+      "name": "conterminal-quoting",
+      "source": "./conterminal-quoting",
+      "description": "Drayage quoting in Claude with the Conterminal connector: price a pasted request, fill in a customer's bid sheet, compare saved rates and review default charges. Nothing is sent to a customer."
+    }
+  ]
+}

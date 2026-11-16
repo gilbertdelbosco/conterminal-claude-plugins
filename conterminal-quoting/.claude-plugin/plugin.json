@@ -1,0 +1,19 @@
+{
+  "name": "conterminal-quoting",
+  "displayName": "Conterminal Quoting",
+  "description": "Drayage quoting in Claude with the Conterminal connector: price a pasted request, fill in a customer's bid sheet, compare saved rates and review default charges. Nothing is sent to a customer.",
+  "author": {
+    "name": "Conterminal",
+    "email": "support@conterminal.com",
+    "url": "https://www.conterminal.com"
+  },
+  "homepage": "https://www.conterminal.com/connectors/shipments",
+  "repository": "https://github.com/gilbertdelbosco/conterminal-claude-plugins",
+  "license": "MIT",
+  "keywords": ["drayage", "quoting", "rate card", "bid", "conterminal"],
+  "icon": "./assets/icon.svg",
+  "documentationUrl": "https://www.conterminal.com/connectors/shipments",
+  "supportUrl": "https://www.conterminal.com/support",
+  "privacyPolicyUrl": "https://www.conterminal.com/privacy",
+  "termsOfServiceUrl": "https://www.conterminal.com/terms"
+}
