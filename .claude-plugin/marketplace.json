@@ -10,7 +10,7 @@
     {
       "name": "conterminal-quoting",
       "source": "./conterminal-quoting",
-      "description": "Drayage quoting in Claude with the Conterminal connector: price a pasted request, fill in a customer's bid sheet, compare saved rates and review default charges. Nothing is sent to a customer."
+      "description": "Drayage quoting in Claude with the Conterminal connector: price a pasted request, fill in a customer's bid sheet, compare saved rates and review or change your quote settings. Nothing is sent to a customer."
     }
   ]
 }

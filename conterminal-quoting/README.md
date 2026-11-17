@@ -1,11 +1,11 @@
 # Conterminal Quoting
 
-Drayage quoting for Claude, built on the Conterminal connector. Paste a customer's quote request and Claude prices it with your carrier's own Conterminal rate engine, shows the route economics, saves the price you agree, and prepares the rate card and reply for you to review. It also fills in a customer's multi-lane bid sheet, compares a quote with your saved rates, and reads or changes your default charges. Nothing is ever sent to a customer.
+Drayage quoting for Claude, built on the Conterminal connector. Paste a customer's quote request and Claude prices it with your carrier's own Conterminal rate engine, shows the route economics, saves the price you agree, and prepares the rate card and reply for you to review. It also fills in a customer's multi-lane bid sheet, compares a quote with your saved rates, and reads or changes your quote settings and default charges. Nothing is ever sent to a customer.
 
 ## What you need
 
 - The Conterminal connector, connected to your carrier workspace. Add it from Claude's connector directory when it's listed there, or as a custom connector with the steps and OAuth client ID at <https://www.conterminal.com/connectors/shipments>. This plugin has no connector of its own.
-- A Manager or Admin role in that workspace for quoting. Changing default charges needs Admin.
+- A Manager or Admin role in that workspace for quoting. Changing quote settings or default charges needs Admin.
 
 ## Install
 
@@ -21,7 +21,7 @@ Drayage quoting for Claude, built on the Conterminal connector. Paste a customer
 | "Quote this", with a pasted email or request | quote-request | `/conterminal-quoting:quote` |
 | Price a customer's bid or rate sheet | quote-bid | `/conterminal-quoting:bid` |
 | "What did we charge on this lane before?" | quote-compare | |
-| "What are my quote settings?" or change a default charge | rate-engine | `/conterminal-quoting:rates` |
+| "What are my quote settings?", or change a rate, charge or fuel setting | rate-engine | `/conterminal-quoting:rates` |
 
 In claude.ai chat the commands load as skills, so asking in your own words works the same way.
 

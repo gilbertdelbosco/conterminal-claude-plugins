@@ -2,7 +2,7 @@
 
 Claude plugins for [Conterminal](https://www.conterminal.com), the drayage TMS. This repository is a Claude plugin marketplace with one plugin:
 
-- [Conterminal Quoting](conterminal-quoting/README.md): price a pasted quote request, fill in a customer's multi-lane bid sheet, compare a quote with saved rates, and review default charges, using the Conterminal connector. Nothing is sent to a customer.
+- [Conterminal Quoting](conterminal-quoting/README.md): price a pasted quote request, fill in a customer's multi-lane bid sheet, compare a quote with saved rates, and review or change quote settings, using the Conterminal connector. Nothing is sent to a customer.
 
 The plugins work with the Conterminal connector, which each person connects to their own Conterminal carrier workspace. Setup steps are at <https://www.conterminal.com/connectors/shipments>.
 
